@@ -42,6 +42,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
 
 # Recovery
+TARGET_RECOVERY_DENSITY := hdpi
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 
 # AVB
