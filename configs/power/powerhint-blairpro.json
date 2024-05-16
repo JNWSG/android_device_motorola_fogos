@@ -646,6 +646,24 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "650000000"
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1804800"
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+       "Value": "9999999"
+    },
+    {
+      "PowerHint": "GAME",
+      "Node": "GPUMinFreq",
+      "Duration": 0,
+      "Value": "650000000"
     }
   ]
 }
