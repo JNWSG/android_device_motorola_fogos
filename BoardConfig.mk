@@ -50,7 +50,7 @@ BOARD_AVB_ROLLBACK_INDEX := 30
 
 # Security Patch
 BOOT_SECURITY_PATCH := 2026-05-01
-VENDOR_SECURITY_PATCH := 2026-05-01
+VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
 # inherit from the proprietary version
 include vendor/motorola/fogos/BoardConfigVendor.mk
