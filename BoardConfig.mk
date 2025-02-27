@@ -40,6 +40,7 @@ BOARD_SUPER_PARTITION_SIZE := 5905580032
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/properties/product.prop
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/properties/system_ext.prop
 
 # Recovery
 TARGET_RECOVERY_DENSITY := hdpi
