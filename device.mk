@@ -64,9 +64,6 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Tag
 
-# Virtual A/B
-TARGET_IS_VAB := true
-
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
