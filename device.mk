@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     SettingsResFogos \
     SystemUIResFogos
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Camera
 PRODUCT_PACKAGES += \
     libgui_shim_vendor
