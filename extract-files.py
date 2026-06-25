@@ -40,7 +40,7 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib/libmot_chi_desktop_helper.so',
         'vendor/lib64/libmot_chi_desktop_helper.so',
     ): blob_fixup()
-        .add_needed('libgui_shim_vendor.so'),
+        .add_needed('libgui_buffer_shim_vendor.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
