@@ -29,7 +29,7 @@ clone_if_missing() {
 }
 
 # Device
-clone_if_missing "https://github.com/JNWSG/android_device_motorola_fogos.git" "16" "device/motorola/fogos"
+clone_if_missing "https://github.com/JNWSG/android_device_motorola_fogos.git" "luna" "device/motorola/fogos"
 clone_if_missing "https://github.com/JNWSG/android_device_motorola_sm6375-common.git" "16" "device/motorola/sm6375-common"
 # Vendor
 clone_if_missing "https://github.com/JNWSG/android_vendor_motorola_fogos.git" "16" "vendor/motorola/fogos"

@@ -416,4 +416,7 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- System Info -->
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+
 </resources>
