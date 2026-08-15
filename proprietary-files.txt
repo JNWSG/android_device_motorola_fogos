@@ -1,4 +1,4 @@
-# Unpinned blobs from fogos_g-user 15 V1UG35H.75-14-3 6c77f4 release-keys
+# Unpinned blobs from fogos_g V1UGS35H.75-14-9-3-1-2
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -44,7 +44,6 @@ vendor/etc/bst_3ddns_3.cfg
 vendor/etc/bstconfig/hdrcfg.cfg
 vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
-vendor/lib/libcamxexternalformatutils.so
 vendor/lib/libcamxexternalformatutils.so
 vendor/lib64/camera/fdconfigpreview.bin
 vendor/lib64/camera/fdconfigpreviewlite.bin
