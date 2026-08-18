@@ -2,13 +2,6 @@
 import /vendor/etc/init/hw/init.nfc.sec.rc
 
 on post-fs
-    # "Tap to wake" gesture
-    chown root input /sys/class/sensors/dt-gesture/enable
-    chmod 0660 /sys/class/sensors/dt-gesture/enable
-    chown root input /sys/class/sensors/dt-gesture/poll_delay
-    chmod 0660 /sys/class/sensors/dt-gesture/poll_delay
-
-on post-fs
     chown system system /sys/devices/platform/soc/4804000.ufshc/clkgate_enable
     chown system system /sys/devices/platform/soc/4804000.ufshc/devfreq/4804000.ufshc/min_freq
 
@@ -89,6 +82,10 @@ on boot
     chmod 0662 /sys/class/leds/vibrator/duration
     write /proc/sys/vm/dirty_background_bytes 26214400
     write /proc/sys/vm/dirty_bytes 104857600
+
+    # Allow system to change double tap node
+    chown system system /sys/devices/virtual/touchscreen/primary/double_tap_enabled
+    chmod 0664 /sys/devices/virtual/touchscreen/primary/double_tap_enabled
 
 on fs
     insmod /vendor/lib/modules/${ro.vendor.mot.gki.path}/rbs_fod_mmi.ko
