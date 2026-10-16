@@ -37,7 +37,7 @@ clone_if_missing "https://github.com/JNWSG/android_vendor_motorola_sm6375-common
 # Kernel
 clone_if_missing "https://github.com/FogosLab/android_kernel_motorola_sm6375.git" "sedona" "kernel/motorola/sm6375"
 # Hardware
-clone_if_missing "https://github.com/FogosLab/android_hardware_motorola.git" "lineage-23.2" "hardware/motorola"
+clone_if_missing "https://github.com/FogosLab/android_hardware_motorola.git" "sedona" "hardware/motorola"
 clone_if_missing "https://github.com/JNWSG/hardware_dolby.git" "16.0" "hardware/dolby"
 
 echo "--- Source Sync Complete ---"
